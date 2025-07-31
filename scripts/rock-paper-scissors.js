@@ -156,7 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
       updateScoreElement();
       if (resultEl) resultEl.textContent = '';
       if (movesEl) movesEl.textContent = '';
-      // do not auto-stop unless user explicitly clicks stop button
     });
   }
 });
